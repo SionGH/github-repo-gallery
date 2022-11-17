@@ -2,7 +2,7 @@ const profile = document.querySelector(".overview");
 const username = "SionGH";
 const repoList = document.querySelector(".repo-list");
 const repos = document.querySelector(".repos");
-const repoData = document.querySelector("repo-data");
+const repoData = document.querySelector(".repo-data");
 
 const gitProfileInfo = async function () {
     const profileInfo = await fetch(`https://api.github.com/users/${username}`);
