@@ -89,7 +89,7 @@ backToRepo.addEventListener("click", function() {
  backToRepo.classList.add("hide");
   });
 
-filterInput.addEventListener = ("input", function (e) {
+filterInput.addEventListener ("input", function (e) {
   const searchText = e.target.value;
   const repos = document.querySelectorAll(".repo");
   const searchLowerText = searchText.toLowerCase();
